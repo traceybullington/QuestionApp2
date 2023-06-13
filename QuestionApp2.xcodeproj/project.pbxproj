@@ -11,6 +11,8 @@
 		BD0EF5B029F6018E002F9265 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EF5AF29F6018E002F9265 /* ContentView.swift */; };
 		BD0EF5B229F6018F002F9265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0EF5B129F6018F002F9265 /* Assets.xcassets */; };
 		BD0EF5B529F6018F002F9265 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0EF5B429F6018F002F9265 /* Preview Assets.xcassets */; };
+		BD0EF5BC29F601BD002F9265 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EF5BB29F601BD002F9265 /* LunchViewController.swift */; };
+		BD0EF5BE29F601D6002F9265 /* TreatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EF5BD29F601D6002F9265 /* TreatsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD0EF5AF29F6018E002F9265 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD0EF5B129F6018F002F9265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD0EF5B429F6018F002F9265 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD0EF5BB29F601BD002F9265 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
+		BD0EF5BD29F601D6002F9265 /* TreatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BD0EF5AD29F6018E002F9265 /* QuestionApp2App.swift */,
 				BD0EF5AF29F6018E002F9265 /* ContentView.swift */,
+				BD0EF5BB29F601BD002F9265 /* LunchViewController.swift */,
+				BD0EF5BD29F601D6002F9265 /* TreatsViewController.swift */,
 				BD0EF5B129F6018F002F9265 /* Assets.xcassets */,
 				BD0EF5B329F6018F002F9265 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0EF5BC29F601BD002F9265 /* LunchViewController.swift in Sources */,
 				BD0EF5B029F6018E002F9265 /* ContentView.swift in Sources */,
 				BD0EF5AE29F6018E002F9265 /* QuestionApp2App.swift in Sources */,
+				BD0EF5BE29F601D6002F9265 /* TreatsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
