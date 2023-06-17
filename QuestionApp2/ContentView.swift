@@ -13,7 +13,7 @@ struct ContentView: View {
             NavigationStack {
                 VStack(spacing: 30) {
                     Text("What's your favorite breakfast?")
-                        .font(.title)
+                        .font(.custom("coffeecake", size: 46))
                         .fontWeight(.light)
                         .foregroundColor(Color(hue: 0.865, saturation: 0.73, brightness: 0.912))
                     
@@ -29,6 +29,8 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .buttonBorderShape(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=shape: ButtonBorderShape@*/.roundedRectangle/*@END_MENU_TOKEN@*/)
                     .opacity(/*@START_MENU_TOKEN@*/19.8/*@END_MENU_TOKEN@*/)
+                    
+                    
                     
                     
                     Button("Pancakes") {
@@ -69,8 +71,8 @@ struct ContentView: View {
                     ToolbarItemGroup(placement: .status){
                         NavigationLink(destination: LunchViewController()) {
                             Text("next question")
-                                .fontWeight(.light)
-                                .foregroundColor(Color(hue: 0.865, saturation: 0.73, brightness: 0.912))
+                   
+                                
                         }
                     }
                 }
